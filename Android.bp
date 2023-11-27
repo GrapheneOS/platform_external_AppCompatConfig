@@ -1,0 +1,11 @@
+android_app_import {
+    name: "AppCompatConfig",
+
+    apk: "prebuilt/AppCompatConfig.apk",
+    presigned: true,
+
+    dex_preopt: {
+        // no code
+        enabled: false,
+    },
+}
